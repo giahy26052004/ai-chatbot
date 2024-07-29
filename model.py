@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import torch
 import torch.nn as nn
 
@@ -19,7 +19,7 @@ class NeuralNet(nn.Module):
         out = self.l3(out)
         # no activation and no softmax at the end
         return out
-=======
+
 import torch
 import torch.nn as nn
 
@@ -40,4 +40,4 @@ class NeuralNet(nn.Module):
         out = self.l3(out)
         # no activation and no softmax at the end
         return out
->>>>>>> 4fd574ed913238e5612250d67feaae785a4d3a8f
+

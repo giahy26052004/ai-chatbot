@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import numpy as np
 import nltk
 # nltk.download('punkt')
@@ -43,7 +43,7 @@ def bag_of_words(tokenized_sentence, words):
             bag[idx] = 1
 
     return bag
-=======
+
 import numpy as np
 import nltk
 # nltk.download('punkt')
@@ -88,4 +88,4 @@ def bag_of_words(tokenized_sentence, words):
             bag[idx] = 1
 
     return bag
->>>>>>> 4fd574ed913238e5612250d67feaae785a4d3a8f
+
