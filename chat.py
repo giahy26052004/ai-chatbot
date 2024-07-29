@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import random
 import json
 
@@ -60,7 +60,7 @@ if __name__ == "__main__":
         resp = get_response(sentence)
         print(resp)
 
-=======
+
 import random
 import json
 
@@ -122,4 +122,4 @@ if __name__ == "__main__":
         resp = get_response(sentence)
         print(resp)
 
->>>>>>> 4fd574ed913238e5612250d67feaae785a4d3a8f
+

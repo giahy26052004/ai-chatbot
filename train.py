@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import numpy as np
 import random
 import json
@@ -128,7 +128,7 @@ FILE = "data.pth"
 torch.save(data, FILE)
 
 print(f'training complete. file saved to {FILE}')
-=======
+
 import numpy as np
 import random
 import json
@@ -258,4 +258,4 @@ FILE = "data.pth"
 torch.save(data, FILE)
 
 print(f'training complete. file saved to {FILE}')
->>>>>>> 4fd574ed913238e5612250d67feaae785a4d3a8f
+
