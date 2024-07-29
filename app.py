@@ -1,5 +1,8 @@
 from flask import Flask,render_template,request,jsonify
+import os
 from flask_cors import CORS
+import nltk
+nltk.download('punkt')
 from chat import get_response
 app=Flask(__name__)
 CORS(app)
@@ -13,6 +16,5 @@ def predict():
     message={"answer":response}
     return jsonify(message)
 if __name__ == "__main__":
-    app.run(debug=True)
-
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8000)), debug=False)
 
