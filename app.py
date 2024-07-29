@@ -17,5 +17,6 @@ def predict():
     return jsonify(message)
 from waitress import serve
 if __name__ == "__main__":
-    serve(app, host='0.0.0.0', port=8000)
+    port = int(os.environ.get("PORT", 8080))  # Sử dụng PORT từ biến môi trường hoặc mặc định là 8080
+    app.run(host="0.0.0.0", port=port)
 
